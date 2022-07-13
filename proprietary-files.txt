@@ -392,9 +392,6 @@ vendor/etc/camera/watermark_font_2300_3199.dat
 # Display calibration data
 vendor/etc/qdcm_calib_data_xiaomi_38_0a_0a_video_mode_fhd_dsi_panel.xml
 
-# DRM (OEM Crypto API)
-vendor/lib64/liboemcrypto.so
-
 # Firmware
 vendor/etc/cs35l41_cal.wav
 vendor/firmware/aw8624_haptic.bin
@@ -474,9 +471,6 @@ vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libswvdec.so
-
-# Secure element
-vendor/lib64/libwvkeybox.so
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
