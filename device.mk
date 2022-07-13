@@ -31,9 +31,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
-# Properties
--include $(LOCAL_PATH)/properties.mk
-
 # Inherit from sm7250-common
 $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 
