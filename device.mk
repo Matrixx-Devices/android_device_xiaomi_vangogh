@@ -29,7 +29,7 @@ PRODUCT_PACKAGES += \
     libmegface
 
 # Fingerprint
-TARGET_HAS_FOD := true
+TARGET_HAS_UDFPS := true
 
 # Properties
 -include $(LOCAL_PATH)/properties.mk
