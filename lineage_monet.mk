@@ -19,7 +19,6 @@ PRODUCT_DEVICE := monet
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2002J9G
-TARGET_USES_DOLBY ?= true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
@@ -29,9 +28,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Xiaomi/monet_eea/monet:12/SKQ1.211006.001/V13.0.2.0.SJIEUXM:user/release-keys
 
 # Inherit from dolby
-ifeq ($(TARGET_USES_DOLBY),true)
-$(call inherit-product, vendor/sony/dolby/sony-dolby-vendor.mk)
-endif
+$(call inherit-product-if-exists, vendor/sony/dolby/sony-dolby-vendor.mk)
 
 # Inherit from Leica camera
-$(call inherit-product, vendor/xiaomi/monet-leicacamera/leica-camera-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/monet-leicacamera/leica-camera-vendor.mk)
