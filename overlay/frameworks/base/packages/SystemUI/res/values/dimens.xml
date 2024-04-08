@@ -41,4 +41,7 @@
      screen directly in front of the sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">2025px</dimen>
     
+    <!-- Recognizing fingerprint animation -->
+    <dimen name="udfps_animation_size">270dp</dimen>
+    <dimen name="udfps_animation_offset">38dp</dimen>
 </resources>
