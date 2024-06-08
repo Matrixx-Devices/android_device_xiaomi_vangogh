@@ -40,3 +40,6 @@ $(call inherit-product-if-exists, vendor/sony/dolby/sony-dolby-vendor.mk)
 
 # Inherit from Leica camera
 $(call inherit-product-if-exists, vendor/xiaomi/monet-leicacamera/leica-camera-vendor.mk)
+
+# Include firmware
+$(call inherit-product, vendor/xiaomi-firmware/vangogh/firmware.mk)
