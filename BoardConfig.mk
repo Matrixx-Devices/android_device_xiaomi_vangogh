@@ -7,7 +7,7 @@
 # Inherit from sm7250-common
 include device/xiaomi/sm7250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/monet
+DEVICE_PATH := device/xiaomi/vangogh
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -15,14 +15,14 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_monet
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_monet
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_vangogh
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_vangogh
 
 # Kernel
-TARGET_KERNEL_CONFIG += monet.config
+TARGET_KERNEL_CONFIG += vangogh.config
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
-include vendor/xiaomi/monet/BoardConfigVendor.mk
+include vendor/xiaomi/vangogh/BoardConfigVendor.mk

@@ -1,4 +1,4 @@
-# All blobs below are extracted from monet 12 SKQ1.211006.001 V13.0.2.0.SJIMIXM release-keys
+# All blobs below are extracted from vangogh 11 RKQ1.200826.002 V12.1.7.0.RJVCNXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Elevoc/Elevoc_Bluetooth_cal.acdb
@@ -68,6 +68,8 @@ vendor/lib64/libaudioroute_ext.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
 # Camera
+system/lib/libcameraservice.so|f78245eaa15c2065a03d31d96ed22694969963e4
+system/lib/libmediaplayer_shim.so|e6711a39bd4feca1daf64070aa6b6895db7998c6
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib/libmmcamera_faceproc.so
@@ -80,32 +82,30 @@ vendor/lib64/camera/com.qti.eeprom.monet_sunny_ov48b2q_gt24p64b.so
 vendor/lib64/camera/com.qti.eeprom.monet_sunny_s5kgh1_gt24p64b.so
 vendor/lib64/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so
 vendor/lib64/camera/com.qti.eeprom.vangogh_sunny_ov08a10_gt24p128c.so
-vendor/lib64/camera/com.qti.sensor.monet_depth_gc02m1.so
-vendor/lib64/camera/com.qti.sensor.monet_front_ov16a1q.so
 vendor/lib64/camera/com.qti.sensor.monet_front_s5kgh1.so
 vendor/lib64/camera/com.qti.sensor.monet_macro_gc02m1.so
 vendor/lib64/camera/com.qti.sensor.monet_ultra_ov8856.so
-vendor/lib64/camera/com.qti.sensor.monet_wide_ov48b2q.so
+vendor/lib64/camera/com.qti.sensor.vangogh_front_ov16a1q.so
 vendor/lib64/camera/com.qti.sensor.vangogh_tele_ov08a10.so
-vendor/lib64/camera/com.qti.sensormodule.monet_ofilm_gc02m1_depth_i.bin
+vendor/lib64/camera/com.qti.sensor.vangogh_wide_ov48b2q.so
 vendor/lib64/camera/com.qti.sensormodule.monet_ofilm_gc02m1_macro_ii.bin
-vendor/lib64/camera/com.qti.sensormodule.monet_ofilm_ov16a1q_front_i.bin
 vendor/lib64/camera/com.qti.sensormodule.monet_ofilm_ultra_ov8856_ii.bin
-vendor/lib64/camera/com.qti.sensormodule.monet_ofilm_wide_ov48b2q_ii.bin
 vendor/lib64/camera/com.qti.sensormodule.monet_sunny_gc02m1_macro_i.bin
 vendor/lib64/camera/com.qti.sensormodule.monet_sunny_ultra_ov8856_i.bin
-vendor/lib64/camera/com.qti.sensormodule.monet_sunny_wide_ov48b2q.bin
+vendor/lib64/camera/com.qti.sensormodule.vangogh_ofilm_ov16a1q_front_i.bin
+vendor/lib64/camera/com.qti.sensormodule.vangogh_ofilm_wide_ov48b2q_ii.bin
 vendor/lib64/camera/com.qti.sensormodule.vangogh_sunny_ov08a10_tele_i.bin
+vendor/lib64/camera/com.qti.sensormodule.vangogh_sunny_wide_ov48b2q_i.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.qti.tuned.monet_ofilm_depth_gc02m1.bin
-vendor/lib64/camera/com.qti.tuned.monet_ofilm_front_ov16a1q_global.bin
+vendor/lib64/camera/com.qti.tuned.monet_ofilm_front_ov16a1q.bin
 vendor/lib64/camera/com.qti.tuned.monet_ofilm_macro_gc02m1.bin
 vendor/lib64/camera/com.qti.tuned.monet_ofilm_ultra_ov8856.bin
 vendor/lib64/camera/com.qti.tuned.monet_ofilm_wide_ov48b2q.bin
 vendor/lib64/camera/com.qti.tuned.monet_sunny_front_s5kgh1.bin
 vendor/lib64/camera/com.qti.tuned.monet_sunny_macro_gc02m1.bin
 vendor/lib64/camera/com.qti.tuned.monet_sunny_ultra_ov8856.bin
-vendor/lib64/camera/com.qti.tuned.monet_sunny_wide_ov48b2q.bin
+vendor/lib64/camera/com.qti.tuned.vangogh_sunny_tele_ov08a10.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
@@ -370,7 +370,7 @@ vendor/etc/camera/almalence_sr_params_wide.config
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/bokehParams.json
 vendor/etc/camera/camxoverridesettings.txt
-vendor/etc/camera/com.xiaomi.dcal.wd.golden
+vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/det_quantize.dlc
 vendor/etc/camera/eisoverridesettings.txt
 vendor/etc/camera/eyelineblush.cng
@@ -419,12 +419,6 @@ vendor/firmware/vangogh_tele_lc898128_ois.prog
 # FOD
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
 vendor/lib64/libgf_hal.so
-
-# HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # OMX
 vendor/lib/libAlacSwDec.so

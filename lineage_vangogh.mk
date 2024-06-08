@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from monet device
-$(call inherit-product, device/xiaomi/monet/device.mk)
+# Inherit from vangogh device
+$(call inherit-product, device/xiaomi/vangogh/device.mk)
 
-PRODUCT_NAME := lineage_monet
-PRODUCT_DEVICE := monet
+PRODUCT_NAME := lineage_vangogh
+PRODUCT_DEVICE := vangogh
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2002J9G
@@ -31,9 +31,9 @@ TARGET_HAS_UDFPS := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="monet-user 12 SKQ1.211006.001 V13.0.2.0.SJIEUXM release-keys"
+    PRIVATE_BUILD_DESC="vangogh-user 11 RKQ1.200826.002 V12.1.7.0.RJVCNXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/monet_eea/monet:12/SKQ1.211006.001/V13.0.2.0.SJIEUXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/vangogh/vangogh:11/RKQ1.200826.002/V12.1.7.0.RJVCNXM:user/release-keys
 
 # Inherit from dolby
 $(call inherit-product-if-exists, vendor/sony/dolby/sony-dolby-vendor.mk)

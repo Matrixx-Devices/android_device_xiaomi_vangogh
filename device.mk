@@ -36,4 +36,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/monet/monet-vendor.mk)
+$(call inherit-product, vendor/xiaomi/vangogh/vangogh-vendor.mk)
