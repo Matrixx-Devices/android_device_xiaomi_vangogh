@@ -17,7 +17,7 @@ static const variant_info_t vangogh_info = {
     .device = "vangogh",
     .marketname = "Mi 10 Lite Zoom",
     .model = "M2002J9E",
-    .build_fingerprint = "Xiaomi/vangogh/vangogh:11/RKQ1.200826.002/V12.1.7.0.RJVCNXM:user/release-keys",
+    .build_fingerprint = "Xiaomi/vangogh/vangogh:12/SKQ1.211006.001/V13.0.9.0.SJVCNXM:user/release-keys",
 
     .nfc = true,
 };

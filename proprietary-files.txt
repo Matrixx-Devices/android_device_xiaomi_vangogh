@@ -1,4 +1,4 @@
-# All blobs below are extracted from vangogh 11 RKQ1.200826.002 V12.1.7.0.RJVCNXM release-keys
+# All blobs below are extracted from vangogh 12 SKQ1.211006.001 V13.0.9.0.SJVCNXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Elevoc/Elevoc_Bluetooth_cal.acdb
